@@ -1,0 +1,14 @@
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\bin\Debug\net8.0\Employee Management System Using Collections.exe
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\bin\Debug\net8.0\Employee Management System Using Collections.deps.json
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\bin\Debug\net8.0\Employee Management System Using Collections.runtimeconfig.json
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\bin\Debug\net8.0\Employee Management System Using Collections.dll
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\bin\Debug\net8.0\Employee Management System Using Collections.pdb
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\Employee Management System Using Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\Employee Management System Using Collections.AssemblyInfoInputs.cache
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\Employee Management System Using Collections.AssemblyInfo.cs
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\Employee Management System Using Collections.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\Employee Management System Using Collections.dll
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\refint\Employee Management System Using Collections.dll
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\Employee Management System Using Collections.pdb
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\Employee Management System Using Collections.genruntimeconfig.cache
+C:\Users\El-Wattaneya\source\repos\Employee Management System Using Collections\Employee Management System Using Collections\obj\Debug\net8.0\ref\Employee Management System Using Collections.dll
