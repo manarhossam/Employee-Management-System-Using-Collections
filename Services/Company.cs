@@ -128,31 +128,50 @@ namespace Employee_Management_System_Using_Collections.Services
             if (employee == null) {
                 throw new ArgumentException($"No employee found{employeeid}");
             }
-            if (employee.Skills.Contains(skill)) { 
+            if (!employee.Skills.Contains(skill)) { 
                 employee.Skills.Add(skill);
             }
             Uniqeskiils.Add(skill);
             Actionhistory.Push($"skill{skill} added to {employee.Name}");
           }
-          public void showemployeebydepartment(int departmentid)
+        public void showemployeebydepartment(int departmentid)
         {
-            if (!Departments.ContainsKey(departmentid)){
+            if (!Departments.ContainsKey(departmentid))
+            {
                 throw new ArgumentException($"No depaetment withid{departmentid}");
             }
-            Department department= Departments[departmentid];
+            Department department = Departments[departmentid];
             Console.WriteLine($"{department.Name}");
-            bool found=false;
+            bool found = false;
             foreach (Employee employee in ActiveEmployee)
             {
-                if (employee.DepartmentId == departmentid) {
+                if (employee.DepartmentId == departmentid)
+                {
                     Console.WriteLine($"{employee.Name}{employee.Id}");
                     found = true;
                 }
-                if (!found) {
-                    Console.WriteLine("No employees currently in this department.");
+            }
+            if (!found)
+            {
+                Console.WriteLine("No employees currently in this department.");
 
-                }
+            }
+        }
+            public void ShowUniqueSkills()
+        {
+            if (Uniqeskiils.Count == 0)
+            {
+                Console.WriteLine("No skills recorded yet.");
+                return;
+            }
+
+            Console.WriteLine("Unique Skills in the Company:");
+
+            foreach (string skill in Uniqeskiils)
+            {
+                Console.WriteLine($" {skill}");
             }
         }
     }
-}
+    }
+

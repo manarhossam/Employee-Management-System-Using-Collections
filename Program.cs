@@ -7,66 +7,52 @@ namespace Employee_Management_System_Using_Collections
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome Employee System");
             Company company = new Company();
-            Employee e = new Employee();
+            bool exit = false;
+            Console.WriteLine("Welcome Employee System");
+            do
+            {
+                Console.WriteLine("1. Add New Employee (Onboarding)");
+                Console.WriteLine("2. Add New Department");
+                Console.WriteLine("3. Process Next Onboarding");
+                Console.WriteLine("4. Add Skill to Employee");
+                Console.WriteLine("5. Search Employee by Id");
+                Console.WriteLine("6. Search Employee by Name");
+                Console.WriteLine("7. Show Employees by Department");
+                Console.WriteLine("8. Show Average Salary");
+                Console.WriteLine("9. View Action History");
+                Console.WriteLine("10. Show Unique Skills");
+                Console.WriteLine("0. Exit");
+                Console.Write("Choose an option: ");
+
+                int input = Convert.ToInt32(Console.ReadLine());
+
+
+                switch (input)
+                {
+                    case 1:
+                        Employee employee = new Employee();
+
+                        Console.Write("Enter Id: ");
+                        employee.Id = Convert.ToInt32(Console.ReadLine());
+
+                        Console.Write("Enter Name: ");
+                        employee.Name = Console.ReadLine();
+
+                        Console.Write("Enter Salary: ");
+                        employee.Salary = Convert.ToDouble(Console.ReadLine());
+
+                        company.AddMember(employee);
+                        break;
+                }
+            }
+            while (!exit);
+
+
+                       }
+            }
             
-            Console.WriteLine("Enter your name");
-            string name=Console.ReadLine();
-            e.Name = name;
-            Console.WriteLine("Enter your ID ");
-            int id =Convert.ToInt32( Console.ReadLine());
-            e.Id = id;
-            Console.WriteLine("Entet your salary");
-            double salary =Convert.ToDouble( Console.ReadLine());
-            e.salary = salary;
-            Console.WriteLine("Enter your skills");
-            string skill = Console.ReadLine();
-            e.skills.Add(skill);
-            Console.WriteLine($"Employee {e.Name} added successfully.");
-            company.AddMember(e);
-            company.ProcessOnboarding();
-
-            Console.WriteLine("Enter ID to search");
-            int searchId = Convert.ToInt32(Console.ReadLine());
-
-            Employee? result = company.seachemployee(searchId);
-
-            if (result != null)
-            {
-                Console.WriteLine($"Employee Found: {result.Name}");
-            }
-            else
-            {
-                Console.WriteLine("Employee not found");
-            }
-
-            Console.WriteLine("Enter name to search");
-            string searchName = Console.ReadLine();
-
-            Employee? resultName =
-                company.seachemployeename(searchName);
-
-            if (resultName != null)
-            {
-                Console.WriteLine($"Employee Found: {resultName.Name}");
-            }
-            else
-            {
-                Console.WriteLine("Employee not found");
-            }
-
-            double average = company.AverageSalary();
-
-            Console.WriteLine($"Average Salary = {average}");
-
-            Console.WriteLine("===== Action History =====");
-
-            company.ViewHistory();
-
-
-
-
-        }
-    }
+            
+            
+    
 }
