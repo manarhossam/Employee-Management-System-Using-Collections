@@ -8,6 +8,6 @@ namespace Employee_Management_System_Using_Collections.Models
 {
      class Manager:Employee
     {
-        List<String>Teammembers=new List<String>();
+     public List<Employee> Teammembers { get; set; } =new List<Employee>();
     }
 }

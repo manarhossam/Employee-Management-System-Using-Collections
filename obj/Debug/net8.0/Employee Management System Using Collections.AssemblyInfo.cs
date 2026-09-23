@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Employee Management System Using Collections")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a27eebd8077f24f8c497c607ad14d5eaae592a68")]
 [assembly: System.Reflection.AssemblyProductAttribute("Employee Management System Using Collections")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Employee Management System Using Collections")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

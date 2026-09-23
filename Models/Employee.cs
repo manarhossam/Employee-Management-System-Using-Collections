@@ -11,9 +11,9 @@ namespace Employee_Management_System_Using_Collections.Models
         public int Id {  get; set; }
         public string Name {  get; set; }
         public DateTime HireDate {  get; set; }
-        public double salary {  get; set; }
+        public double Salary {  get; set; }
         public int DepartmentId {  get; set; }
 
-        public List<string>skills=new List<string>();
+        public List<string> Skills { get; set; } =new List<string>();
     }
 }
